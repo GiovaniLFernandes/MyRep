@@ -1,0 +1,59 @@
+@keyframes navbar {
+  from {
+    transform: translateY(-11vh);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes right {
+  from {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes marker{
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes house {
+  from {
+    transform: translateX(200%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-nav {
+  animation: navbar .5s;
+}
+
+.animate-r {
+  animation: right 1s ease-out;
+}
+
+.animate-marker {
+  animation: marker 1s ease-out;
+}
+
+.animate-house {
+  animation: house .8s ease-out;
+}

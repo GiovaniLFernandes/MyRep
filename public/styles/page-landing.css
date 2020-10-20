@@ -1,0 +1,181 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.logo {
+  display: flex;
+  margin-right: 0;
+}
+
+.logo img {
+  width: 170px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin-right: 30px;
+}
+
+.navbar-links ul li{
+  list-style: none;
+}
+
+.navbar-links ul li a {
+  text-decoration: none;
+  color: #3F3D56;
+  font-size: 1.3rem;
+  padding: 1.3rem;
+  transition: color .2s;
+}
+
+.navbar-links ul li a:hover {
+  color: #00D38C;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: .3rem;
+  width: 170px;
+  background: #ED4D72;
+
+  border-radius: 5px;
+
+}
+
+.button a {
+  font-size: 1.3rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+
+  position: relative;
+}
+
+header h1 {
+  font-size: 4rem;
+  width: 30%;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+
+header img {
+  width: 70%;
+}
+
+/* SEÇÃO COMO FUNCIONA */
+
+.como-funciona {
+  width: 100%;
+  margin-right: 100px;
+}
+
+.titulo-secao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+.titulo-secao span {
+  color: #00D38C;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.titulo-secao h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.como-funciona-ilustracao img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.instrucoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+
+  width: 50%;
+
+  margin-left: 50px;
+}
+
+.instrucao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.numero-instrucao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+
+  background: rgba(0, 211, 140, 0.4);
+  color: #00D38C;
+
+  border-radius: 20px;
+
+}
+
+.numero-instrucao span {
+  font-size: 2.5rem;
+}
+
+.textos-instrucao {
+  padding: 1.5rem;
+}
+
+.textos-instrucao span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.textos-instrucao p {
+  font-size: .9rem;
+  line-height: 1.5;
+
+  margin-top: .8rem;
+}
+
+

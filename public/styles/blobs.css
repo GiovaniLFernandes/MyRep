@@ -1,0 +1,10 @@
+.blob-header {
+  width: 1044px;
+  height: 990px;
+
+  position: absolute;
+  left: -351px;
+  top: 320px;
+
+  z-index: -1;
+}
